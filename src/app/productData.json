@@ -1,0 +1,116 @@
+{
+    "name": "Dailyobjects Ivory Pedal Daypack",
+    "currency": "£",
+    "price": 89.99,
+    "category": "BAG",
+    "rating": 5,
+    "reviewCount": 13,
+    "colors": {
+        "Beige" : "cebaad",
+        "Clove" : "33291a",
+        "Forest Green" : "153b2c",
+        "Green" : "775d13",
+        "Ivory" : "f5eedc",
+        "Mint" : "738c6d",
+        "Mustard" : "e7a139",
+        "Navy" : "233442",
+        "Red" : "a1091c"
+    },
+    "description": [
+        "Handcrafted from 100% pure canvas with leather trims",
+        "One zippered main compartment with a non-padded laptop sleeve that fits a laptop of up to 14 inches",
+        "Two pockets on both sides to store water bottles",
+        "Adjustable and cushioned shoulder straps with leather trims for an effortless carry",
+        "Capacity: 10 Litres",
+        "Note: Actual product colour may differ from the images shown."
+    ],
+    "media": [
+        {
+            "type": "image",
+            "url": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/product_image_1.jpeg",
+            "alt": "Ivory Pedal Daypack Image 1"
+        },
+        {
+            "type": "image",
+            "url": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/product_image_2.jpeg",
+            "alt": "Ivory Pedal Daypack Image 2"
+        },
+        {
+            "type": "image",
+            "url": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/product_image_3.jpeg",
+            "alt": "Ivory Pedal Daypack Image 3"
+        },
+        {
+            "type": "image",
+            "url": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/product_image_4.jpeg",
+            "alt": "Ivory Pedal Daypack Image 4"
+        },
+        {
+            "type": "image",
+            "url": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/product_image_5.jpeg",
+            "alt": "Ivory Pedal Daypack Image 5"
+        },
+        {
+            "type": "video",
+            "url": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/product_video_1.mp4",
+            "alt": "Ivory Pedal Daypack Video 1",
+            "thumbUrl" : "https://d1o2glsg6m692z.cloudfront.net/ecom/products/product_video_1_thumb.png"
+        }
+    ],
+    "reviews": [
+        {
+            "userImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/users/user_image_1.jpg",
+            "userName": "John",
+            "rating": 4,
+            "text": "Solid build, very ergonomic to use",
+            "reviewImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/reviews/review_image_1.jpg",
+            "reviewDate": "17/04/2025"
+        },
+        {
+            "userImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/users/user_image_2.jpg",
+            "userName": "Eva",
+            "rating": 5,
+            "text": "I was looking for a bag for my 16-inch laptop and this bag is suitable and an amazing product!",
+            "reviewImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/reviews/review_image_2.jpg",
+            "reviewDate": "14/04/2025"
+        },
+        {
+            "userImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/users/user_image_3.jpg",
+            "userName": "William",
+            "rating": 5,
+            "text": "I was a bit worried about how the product will be, as the price is bit high. But, turns out I was wrong. It's really worth the price.",
+            "reviewImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/reviews/review_image_3.jpg",
+            "reviewDate": "13/04/2025"
+        }
+    ],
+    "similarProducts": [
+        {
+            "name": "Mustard Field Daypack",
+            "price": "1499",
+            "rating": "4",
+            "reviewCount": "120",
+            "productImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/bag1.jpeg"
+        },
+        {
+            "name": "Charcoal Meridian Convertible Briefpack",
+            "price": "49",
+            "rating": "5",
+            "reviewCount": "120",
+            "productImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/bag2.jpeg"
+        },
+        {
+            "name": "Forest Green Field Daypack",
+            "price": "1299",
+            "rating": "5",
+            "reviewCount": "120",
+            "productImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/bag3.jpeg"
+        },
+        {
+            "name": "Carbon Black Stria Laptop Sleeve - Medium",
+            "price": "1599",
+            "rating": "4",
+            "reviewCount": "120",
+            "productImage": "https://d1o2glsg6m692z.cloudfront.net/ecom/products/sleeve4.jpeg"
+        }
+    ]
+}
