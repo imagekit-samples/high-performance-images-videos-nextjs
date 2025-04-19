@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaEnvelope, FaFacebook, FaInstagram, FaPinterest, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
@@ -35,7 +34,7 @@ const Footer = () => {
     </div>
     <div>
       <h4 className="font-bold mb-2">SUBSCRIBE TODAY!</h4>
-      <p className='text-sm text-slate-400'>Sign up to receive all the latest news, releases and offers from Empire Skate</p>
+      <p className='text-sm text-slate-400'>Sign up to receive all the latest news, releases and offers</p>
       <input type="email" placeholder="Enter your email address..." className="p-2 mt-5 mb-1 w-full outline" />
       <button className="p-2 mt-2 bg-teal-500 text-white text-sm rounded-xs">Subscribe</button>
     </div>

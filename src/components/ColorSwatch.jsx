@@ -1,5 +1,3 @@
-import React from 'react';
-
 const ColorSwatch = ({ colors }) => {
   return (
     <div className="mb-10 overflow-x-hidden">

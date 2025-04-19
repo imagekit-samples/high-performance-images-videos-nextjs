@@ -1,5 +1,5 @@
-import productData from '@/app/productData.json';
-import ProductGallery from '@/components/ProductGallery';
+import productData from "@/app/productData.json";
+import ProductGallery from "@/components/ProductGallery";
 import ProductDetails from "@/components/ProductDetails";
 import SimilarProducts from "@/components/SimilarProducts";
 import ProductReviews from "@/components/ProductReviews";
