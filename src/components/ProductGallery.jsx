@@ -11,16 +11,21 @@ const ProductGallery = ({ media }) => {
   };
 
   return (
-    <aside className="col-span-2 md:col-span-1 max-h-[800px] p-5 bg-white">
+    <aside className="col-span-2 md:col-span-1 max-h-[800px] md:p-5 bg-white">
       <div className="mb-2 aspect-square relative">
         {media.length > 0 && media[selectedMediaIndex].type === 'image' && (
           <Media
             contentType={media[selectedMediaIndex].type}
             src={media[selectedMediaIndex].url}
             alt={media[selectedMediaIndex].alt}
-            className="object-cover w-full h-full"
-            width="500"
-            height="500"
+            fill="true"
+            className="object-cover"
+            sizes="(max-width: 768px) 80vw, (max-width: 1200px) 50vw, 500px"
+            priority="true"
+            loading="eager"
+            // transformation={[{
+            //   "aiChangeBackground" : `prompt-${encodeURIComponent("On a rock with snowy mountains in the background at a distance")}`
+            // }]}
           />
         )}
         {media.length > 0 && media[selectedMediaIndex].type === 'video' && (
@@ -46,6 +51,9 @@ const ProductGallery = ({ media }) => {
               alt={item.alt}
               className="object-contain container h-full"
               width="100" height="100"
+              // transformation={[{
+              //   "aiChangeBackground" : `prompt-${encodeURIComponent("On a rock with snowy mountains in the background at a distance")}`
+              // }]}
             />
           </div>
         ))}
