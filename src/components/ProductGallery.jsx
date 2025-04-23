@@ -18,11 +18,11 @@ const ProductGallery = ({ media }) => {
             contentType={media[selectedMediaIndex].type}
             src={media[selectedMediaIndex].url}
             alt={media[selectedMediaIndex].alt}
-            fill="true"
+            width="500"
+            height="500"
             className="object-cover"
             sizes="(max-width: 768px) 80vw, (max-width: 1200px) 50vw, 500px"
             priority="true"
-            loading="eager"
             // transformation={[{
             //   "aiChangeBackground" : `prompt-${encodeURIComponent("On a rock with snowy mountains in the background at a distance")}`
             // }]}
