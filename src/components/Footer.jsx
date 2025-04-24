@@ -4,7 +4,7 @@ const Footer = () => {
   return (
 <footer className="bg-gray-800 text-white p-5 mt-8 text-slate-500">
   <div className="container max-w-[1200px] p-5 mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
-    <img src="https://ik.imagekit.io/ikmedia/logo/ikLogoWhite_30FbZCVusC.svg" alt="Logo" className="w-40" width="160" height="33" />
+    <img src="https://ik.imagekit.io/ikmedia/logo/ikLogoWhite_30FbZCVusC.svg" alt="Logo" className="w-40" width="160" height="33" loading="lazy" />
     <div>
       <h4 className="font-bold mb-2">HELP</h4>
       <ul className='text-sm text-slate-400'>

@@ -13,6 +13,7 @@ const SimilarProducts = ({ products }) => {
               src={product.productImage}
               alt={product.name}
               className="w-full" width="300" height="350"
+              sizes="300px"
             />
             <div className="mt-2">
               <p className="font-semibold">{product.name}</p>

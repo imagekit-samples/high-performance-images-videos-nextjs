@@ -23,9 +23,6 @@ const ProductGallery = ({ media }) => {
             className="object-cover"
             sizes="(max-width: 768px) 80vw, (max-width: 1200px) 50vw, 500px"
             priority="true"
-            // transformation={[{
-            //   "aiChangeBackground" : `prompt-${encodeURIComponent("On a rock with snowy mountains in the background at a distance")}`
-            // }]}
           />
         )}
         {media.length > 0 && media[selectedMediaIndex].type === 'video' && (
@@ -46,14 +43,12 @@ const ProductGallery = ({ media }) => {
           <div key={index} className={`col-span-1 max-h-24 bg-[#F7F7F7] overflow-hidden items-center justify-center ${selectedMediaIndex === index ? 'border-1 border-slate-200' : ''}`}
           onClick={() => handleThumbnailClick(index)}>
             <Media
-              contentType='image'
-              src={item.type === 'image' ? item.url : item.thumbUrl}
+              contentType={item.type === 'video' ? 'videoThumbnail' : 'image'}
+              src={item.url}
               alt={item.alt}
               className="object-contain container h-full"
               width="100" height="100"
-              // transformation={[{
-              //   "aiChangeBackground" : `prompt-${encodeURIComponent("On a rock with snowy mountains in the background at a distance")}`
-              // }]}
+              sizes="100px"
             />
           </div>
         ))}

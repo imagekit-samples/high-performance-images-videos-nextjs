@@ -15,6 +15,7 @@ const ProductReviews = ({ reviews }) => {
               className="w-12 h-12 rounded-full mr-4 hidden md:block"
               width="50"
               height="50"
+              sizes="50px"
             />
 
             <div className="flex-1 flex-col md:flex md:items-left md:space-x-4">
@@ -38,6 +39,7 @@ const ProductReviews = ({ reviews }) => {
               alt={`${review.userName}'s review image`}
               className="w-24 h-24 ml-4 md:ml-0 md:mt-4"
               width="96" height="96"
+              sizes="(max-width: 768px) 50vw, (max-width: 1200px) 25vw, 300px"
             />
           </div>
         ))}

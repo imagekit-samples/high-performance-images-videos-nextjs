@@ -30,7 +30,7 @@ const Media = ({ src, contentType, poster, ...props }) => {
           crop: "at_max"
       }]
     });
-
+  
     return <Image src={posterURL} {...props} />;
   } else {
     return <Image src={src} {...props} />;
